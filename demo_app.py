@@ -18,7 +18,7 @@ def runJob():
     log.critical('INFO: EASTER EGG - The quick brown fox jumped over the lazy dog.')
     # Do some interesting computation
     print(".") # Gives visual indication that it is running
-    time.sleep(3) # The computation takes ~3 sec
+    time.sleep(600) # The computation takes ~3 sec
 
     result = random.randint(1,10) 
     if result == 1: # 10% chance that this job will fail
